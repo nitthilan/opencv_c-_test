@@ -13,6 +13,8 @@
 	- g++ -ggdb `pkg-config --cflags --libs opencv3` facedetect.cpp -o /tmp/test && /tmp/test
 - check the output of pkg-config value to check the libraries and include values for the package
 	-  pkg-config --cflags --libs opencv3
+- to remove file from git without local file deletion
+	- git rm --cached -r .
 
 # Steps to build:
 - cmake .
